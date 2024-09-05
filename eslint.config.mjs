@@ -21,13 +21,13 @@ export default tseslint.config(
         files: ['**/*.js', '**/*.spec.ts'],
         ...tseslint.configs.disableTypeChecked,
     },
-    // {
-    //     ignores: [
-    //         'jest.config.js',
-    //         '**/src/*.spec.ts',
-    //         '*.spec.ts',
-    //         '.gitignore',
-    //         '*.json',
-    //     ],
-    // }
+    {
+        ignores: [
+            'jest.config.js',
+            '**/src/*.spec.ts',
+            '*.spec.ts',
+            '.gitignore',
+            '*.json',
+        ],
+    }
 );
